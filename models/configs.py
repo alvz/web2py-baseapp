@@ -21,7 +21,6 @@ track_changes(DEBUG)
 ##################################################
 if DEBUG:     
     db = DAL('sqlite://storage.sqlite')
-    #db = DAL('postgres://perseus:herculano@localhost:5432/perseus')
 else:
     db = DAL('postgres://username:password@localhost:5432/database')
 
