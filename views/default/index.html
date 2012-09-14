@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{=T.accepted_language or 'en'}}">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Base App</title>
+    {{include 'header.html'}}
+    {{block extra-head}}{{end}}
+  </head>
+  <body class="login">
+      <div class="login-box">
+        {{=form}}        
+      </div>
+      <div class="next-box">
+        <h3>Web2py Base App</h3>
+        <span>
+            This is a base app for fast development with web2py and python, includes all you need to start a new app.<br>
+            <br><b>Includes:</b>
+            Web2py + Configs Files + Bootstrap Twitter
+            <br>
+            <i>For edit this file go to /static/less/custom.less file</i>
+            <br>
+            <br>
+            Follow me: <a class="link" href="">@jCarlo0s</a> and Happy Coding
+        </span>
+      </div>
+  </body>
+</html>
